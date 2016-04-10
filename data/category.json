@@ -1,0 +1,30 @@
+[
+  {
+	"name":"Electronics",
+	"items": [
+	  {"name":"Laptop", "brand": "Lenovo", "price": "45000"},
+	  {"name":"Mouse", "brand":  "Dell", "price": "2000"}
+  ]
+
+  },
+  {
+	"name":"Books",
+	"items": [
+	  {"name":"Da Vinci Code", "price": "1000"},
+	  {"name":"Harry Potter", "price": "900"},
+	  {"name":"Tale of 2 cities", "price": "2300"},
+	  {"name":"Wings of Fire", "price": "4400"},
+	  {"name":"Martian", "price": "200"}
+	]
+
+  },
+  {
+	"name":"Clothes",
+	"items": [
+	  {"name":"Men's Shirt", "brand": "Arrow", "price": "2000"},
+	  {"name": "Men's Shirt", "brand":"Tommy Hilfiger", "price": "5000"},
+	  {"name": "Hat", "brand": "Louis Voutton", "price": "2560"}
+	]
+
+  }
+]

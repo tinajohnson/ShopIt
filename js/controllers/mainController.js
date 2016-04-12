@@ -3,7 +3,6 @@
  */
 var app = angular.module( 'shopApp', [] );
 app.controller( 'mainController', function( $scope,$http ) {
-    var count = 0;
     $scope.contents =  null;
     $scope.added = [];
     var Totprice = 0;
@@ -25,6 +24,7 @@ app.controller( 'mainController', function( $scope,$http ) {
             price: price
         };
         Totprice = parseInt(Totprice) + parseInt(item.price);
+        $scope.added.push( item );
 
         $scope.tax = 0.10 * Totprice;
         $scope.total = $scope.tax + 300 + Totprice;
